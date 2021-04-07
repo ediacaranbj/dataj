@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # ### Задание 1
-
-# In[ ]:
-
 
 word = input('Введите слово: ')
 length = len(str(word))
@@ -17,9 +11,6 @@ else:
 
 # ### Задание 2
 
-# In[61]:
-
-
 number = int(input('Введите число: '))
 count = 0
 while number != 0:
@@ -29,9 +20,6 @@ print(count)
 
 
 # ### Задание 3
-
-# In[119]:
-
 
 boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard', 'Michael']
 girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
@@ -47,9 +35,6 @@ print(str(pairs_zip[4][0])+ ' и ' +str(pairs_zip[4][1]))
 
 
 # ### Задание 4
-
-# In[115]:
-
 
 countries_temperature = [
     ['Thailand', [75.2, 77, 78.8, 73.4, 68, 75.2, 77]],
